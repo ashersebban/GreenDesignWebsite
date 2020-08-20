@@ -1,0 +1,51 @@
+*{
+	font-family:'Merriweather',sans-serif;
+	box-sizing: border-box;
+}
+
+.navbar a{
+	font-family: 'Merriweather',serif;
+}
+
+
+.jumbotron{
+	padding:30px;
+}
+
+
+section{
+	height:600;
+	margin: 30px;
+}
+
+#gfm{
+	width:50%;
+	float:right;
+}
+
+#donate-text{
+	padding:20px 80px;
+	
+	width:50%;
+	float:left;
+	border-left:3px solid orange;
+
+}
+
+#donate-text h1{
+	padding-bottom:20px;
+	font-family: 'Avaro',serif;
+}
+
+#donate-text h4{
+	line-height:2em;
+
+	
+
+}
+
+footer{
+	background-color: black;
+	color:white;
+	height:100px;
+}

@@ -1,0 +1,133 @@
+*{
+	
+}
+
+.navbar a{
+	font-family: 'Merriweather',serif;
+}
+
+.cover{
+	text-align: center;
+}
+
+.cover h1{
+	font-family:'Fjalla One',sans-serif;
+	background-color: white;
+	width:50%;
+	margin:auto;
+	padding:50px;
+}
+
+b{
+	text-decoration: none;
+	font-size: 1.2em;
+	color:green;
+}
+
+.cover-info{
+	background-color:#e9f0ec;
+	overflow: hidden;
+	border-top:1px green solid;
+	border-bottom:1px green solid;
+	padding-bottom:50px;
+}
+
+.sketchup{
+	padding-bottom:50px;
+}
+
+.sketchup iframe{
+	border:10px black solid;
+}
+
+.cover-info h3{
+	font-family: 'Arvo',serif;
+	color:forestgreen;
+	padding:15px;
+}
+
+.cover-info ul{
+	width:40%;
+	margin:auto;
+	list-style: none;
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.cover-info ul li{
+	padding: 10px 15px;
+	border:1px #bbd0c2 solid;
+	border-radius: 10px;
+	background-color:white;
+	margin:5px;
+}
+
+
+
+
+
+
+.design-box{
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+	display:flex;
+	height:400px;
+}
+
+.design-image{
+	width:40%;
+	white-space: nowrap;
+}
+
+
+.design-text{
+	width:60%;
+	margin:50px;
+}
+
+.design-text h1{
+	font-family: 'Arvo',serif;
+	font-size: 2em;
+	color:darkgreen;
+}
+
+.design-text h3{
+	font-family: 'Merriweather',serif;
+	font-size: 1.2em;
+	padding:0 30px;
+	line-height: 1.5em;
+	border-left:3px green solid;
+}
+
+.style1{
+	flex-direction: row;
+}
+
+
+
+.style2{
+	flex-direction:row-reverse;
+	background-color:#e9f0ec;
+}
+#greenhouseCarousel{
+	width:50%;
+}
+
+#filterCarousel{
+	width:50%;
+}
+
+
+.the_end{
+	border-bottom:1px forestgreen solid;
+	margin-bottom:20px;
+}
+footer{
+	background-color: black;
+	color:white;
+	height:100px;
+}

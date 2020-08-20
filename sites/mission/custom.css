@@ -1,0 +1,181 @@
+*{
+	font-family: 'Arvo',serif;
+	padding:0;
+	margin:0;
+}
+.navbar a{
+	font-family: 'Merriweather',serif;
+}
+#cover{
+	margin:0;
+	width:100%;
+	height:780px;
+	display:flex;
+}
+
+.mission-statement{
+	width:50%;
+	height:100%;
+	background-color:black;
+
+}
+.mission-statement h2{
+	margin:50px;
+	color:white;
+	line-height: 1.5em;
+}
+.mission-statement h2 b{
+	color:forestgreen;
+	font-family:'Fjalla One',sans-serif;
+	font-size: 1.2em;
+}
+.mission-image{
+	width:50%;
+	height:100%;
+	background:url("images/mission2.jpg") no-repeat;
+	background-size: cover;
+}
+
+#section2{
+	text-align: center;
+	background-color:#F5F5F5;
+}
+
+#section2 h2{
+	color:forestgreen;
+	padding:5px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+#impact h4{
+	color:darkgrey;
+}
+
+.box-list{
+	padding:10px;
+	list-style: none;
+}
+
+.box-list li{
+	padding:40px;
+	margin:0 10px;
+	display:inline-block;
+	border:1px #E0E0E0 solid;
+	border-radius: 10px;
+	background-color:white;
+}
+
+article{
+	margin-top: 0;
+	height:500px;
+	width:100%;
+	background-color:white;
+	display:inline-block;
+	box-sizing: border-box;
+
+}
+
+#articleImage{
+	background:url("images/mission3.jpg")no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding:50px;
+	width:35%;
+	height:500px;
+	float:left;
+}
+
+#articleText{
+	width:65%;
+	padding:50px;
+	float:right;
+}
+
+#articleText h2{
+	font-family: 'Arvo',serif;
+	margin:30px;
+	color:forestgreen;
+	font-weight: bold;
+}
+
+#articleText h5{
+	margin-left:30px;
+	line-height: 2em;
+	color:grey;
+	font-family: 'Merriweather',serif;
+
+}
+
+.map{
+	box-sizing: border-box;
+	display:inline-flex;
+	flex-direction:row;
+	height:600px;
+	width:100%;
+	background-color:#F5F5F5;
+}
+
+.map-text{
+	width:55%;
+	width:65%;
+	padding:50px;
+}
+
+.map-header{
+	border-bottom:3px lightgrey solid;
+}
+
+.map-header h2{
+	font-family: 'Arvo',serif;
+	margin:30px;
+	color:forestgreen;
+	font-weight: bold;
+}
+
+.map-header h5{
+	margin-left:30px;
+	line-height: 2em;
+	color:grey;
+	font-family: 'Merriweather',serif;
+
+}
+
+.map-nav{
+	font-family:'Fjalla One',sans-serif;
+	background-color: white;
+	padding:30px 0px;
+	margin:10px;
+	height:300px;
+	width:40%;
+	border:3px orange solid;
+	border-radius: 100%;
+	float:right;
+	position:relative;
+	bottom:140px;
+	right:80px;
+}
+
+.map-nav h3{
+	color:orange;
+	text-align:center;
+	padding:10px;
+	margin:0px 50px;
+}
+
+.map-nav ul{
+	margin:0px 50px;
+	padding:3px;
+	font-size: 0.9em;
+}
+
+.google-map{
+	width:45%;
+	margin:15px;
+}
+
+footer{
+	background-color: black;
+	color:white;
+	height:100px;
+}
